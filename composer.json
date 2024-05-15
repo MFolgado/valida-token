@@ -1,0 +1,31 @@
+{
+    "name": "marcelogennaro/autenticacao-recarga-api",
+    "description": "pacote de autenticação recarga api",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Marcelogennaro\\AutenticacaoRecargaApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "marcelogennaro",
+            "email": "marcelo.gennaro@before.com.br"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "illuminate/support": "^11.7",
+        "illuminate/auth": "^11.7"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true,
+            "kylekatarnls/update-helper": true
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.34"
+    }
+}
